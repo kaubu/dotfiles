@@ -1,0 +1,17 @@
+set number
+set relativenumber
+set tabstop=4           " Number of columns occupied by a tab
+set softtabstop=4       " See multiple spaces as tabstops
+set expandtab           " Converts tabs to white space
+set shiftwidth=4        " How many spaces pressing tab makes
+set autoindent
+set expandtab           " Expands TABs to spaces
+set mouse=a             " Enables mouse click
+set cc=79               " Set column border for good coding style
+set cursorline          " Highlight current cursorline
+set ttyfast             " Speed up scrolling in Vim
+set backupdir=~/.cache/vim      " Directory to store backup files
+set clipboard=unnamedplus       " Using system clipboard
+
+filetype plugin indent on       " Allow auto-indenting depending on file type
+syntax on                       " Syntax highlighting
